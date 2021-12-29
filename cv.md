@@ -21,9 +21,9 @@
 
 ## Education:
   1. Minsk State Energy College(2010 - 2014)
-    * Electrician technician
+  *  Electrician technician
   2. Insitute of Information Technology Belarusian State University of Informatics and Radioelectronics(2014 - 2018)
-    * System Administrator
+  *  System Administrator
 
   Courses:
    * HTML - [code-basics](https://ru.code-basics.com/languages/html)
