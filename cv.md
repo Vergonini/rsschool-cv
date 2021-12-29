@@ -1,35 +1,50 @@
-#Pavel Khareuka
+# Pavel Khareuka
+
 ***
-***
-##Contacts:
+
+## Contacts:
   * Location: Minsk, Belarus
   * Phone: +375295431268
   * Email: paul.horevko@gmail.com
   * GitHub: [vergonini](https://github.com/Vergonini)
+
 ***
-##About me:
+
+## About me:
+
 ***
-##Sklils:
+
+## Sklils:
   * HTML
   * CSS
   * JavaScript(Basic)
   * Git, GitHub
+
 ***
-##Code Examples:
+
+## Code Examples:
+
 ***
-##Work experience:
+
+## Work experience:
+
 ***
-##Education:
+
+## Education:
   1. Minsk State Energy College(2010 - 2014)
     * Electrician technician
-  
   2. Insitute of Information Technology Belarusian State University of Informatics and Radioelectronics(2014 - 2018)
     * System Administrator
+
+***
+
   Courses:
-   [HTML](https://ru.code-basics.com/languages/html)
-   [CSS](https://ru.code-basics.com/languages/css)
+   * [HTML](https://ru.code-basics.com/languages/html)
+   * [CSS](https://ru.code-basics.com/languages/css)
+
 *** 
-##Languages:
+
+## Languages:
   * Russian - Native
   * English - A2
 
