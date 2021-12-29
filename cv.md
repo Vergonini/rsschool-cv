@@ -41,7 +41,7 @@ list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 binary_search(list, 9);
 ```
 ## Work experience:
-
+Yet nothing...
 
 ## Education:
   1. Minsk State Energy College(2010 - 2014)
