@@ -6,8 +6,6 @@
   * Email: paul.horevko@gmail.com
   * GitHub: [vergonini](https://github.com/Vergonini)
 
-## About me:
-
 ## Sklils:
   * HTML
   * CSS
