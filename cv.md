@@ -5,6 +5,7 @@
   * Phone: +375295431268
   * Email: paul.horevko@gmail.com
   * GitHub: [vergonini](https://github.com/Vergonini)
+  * Discord: Vergonini
 
 ## Sklils:
   * HTML
