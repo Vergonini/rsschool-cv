@@ -1,7 +1,5 @@
 # Pavel Khareuka
-
 ***
-
 ## Contacts:
   * Location: Minsk, Belarus
   * Phone: +375295431268
@@ -36,14 +34,11 @@
   2. Insitute of Information Technology Belarusian State University of Informatics and Radioelectronics(2014 - 2018)
     * System Administrator
 
-***
-
   Courses:
    * [HTML](https://ru.code-basics.com/languages/html)
    * [CSS](https://ru.code-basics.com/languages/css)
 
 *** 
-
 ## Languages:
   * Russian - Native
   * English - A2
