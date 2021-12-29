@@ -37,7 +37,8 @@ function binary_search(sorted_List, item) {
 }
 
 list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-alert(binary_search(list, 9));
+
+binary_search(list, 9);
 ```
 ## Work experience:
 
