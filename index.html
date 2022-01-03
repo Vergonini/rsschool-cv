@@ -10,97 +10,99 @@
 </head>
 <body>
   <div class="content">
-    <header>
-      <h1>Pavel Khareuka</h1>
-      <img src="#" alt="photo of Pavel Khareuka">
-      <ul>
+    <header class="containerHeader">
+      <h1 class="name">Pavel Khareuka</h1>
+      <img class="photo" src="img/cat.jpg" alt="photo of Pavel Khareuka">
+      <ul class="contacts">
         <li>Phone: +375295431268</li>
         <li>Email: paul.horevko@gmail.com</li>
         <li>GitHub: vergonini</li>
         <li>Discord: Vergonini</li>
       </ul>
     </header>
-    <main>
+    <main class="containerMain">
       <section class="codeExamples">
         <h2>Code Examples</h2>
-        <code>
-        <pre>
-          function binary_search(sorted_List, item) {
-            let lowIndex = 0;
-            let highIndex = sorted_List.length - 1;
-            let midIndex = 0;
-            let guess = 0;
-          
-            while (lowIndex <= highIndex) {
-              midIndex = (lowIndex + highIndex)/2;
-              guess = sorted_List[midIndex];
-          
-              if (guess == item) return midIndex;
-              if (guess > item) {
-                highIndex = midIndex - 1;
-                } else {
-                  lowIndex = midIndex + 1;
+          <pre>
+            <code>
+              function binary_search(sorted_List, item) {
+                let lowIndex = 0;
+                let highIndex = sorted_List.length - 1;
+                let midIndex = 0;
+                let guess = 0;
+              
+                while (lowIndex &le; highIndex) {
+                  midIndex = (lowIndex + highIndex)/2;
+                  guess = sorted_List[midIndex];
+              
+                  if (guess == item) return midIndex;
+                  if (guess > item) {
+                    highIndex = midIndex - 1;
+                    } else {
+                      lowIndex = midIndex + 1;
+                    }
                 }
-            }
-            return -1;
-          }
-          
-          list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-          
-          binary_search(list, 9);
-        </pre>
-        </code>
+                return -1;
+              }
+              
+              list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+              
+              binary_search(list, 9);
+            </code>
+          </pre>
       </section>
-      <section class="about me">
-        <h2>About me</h2>
-        <p>This section will be completed as we progress.</p>
-      </section>
-      <section class="education">
-        <h2>Education</h2>
-        <ol>
-          <li>Insitute of Information Technology Belarusian State University of Informatics and Radioelectronics
+        <div class="containerRightColum">
+          <section class="aboutMe">
+            <h2>About me</h2>
+            <p>This section will be completed as we progress.</p>
+          </section>
+          <section class="education">
+            <h2>Education</h2>
+            <ol>
+              <li>Insitute of Information Technology Belarusian State University of Informatics and Radioelectronics
+                <ul>
+                  <li>System Administrator</li>
+                </ul>
+              </li>
+              <li>Minsk State Energy College
+                <ul>
+                  <li>Electrician Technician</li>
+                </ul>
+              </li>
+            </ol>
+            <h3 class="courses">Courses</h3>
             <ul>
-              <li>System Administrator</li>
+              <li>HTML<ul>
+                <li><a href="https://ru.code-basics.com/languages/html">Code Basics</a></li>
+                <li><a href="https://webref.ru/course">Webref</a></li>
+              </ul></li>
+              <li>CSS
+                <ul>
+                  <li><a href="https://ru.code-basics.com/languages/css">Code Basics</a></li>
+                  <li><a href="https://webref.ru/course">Webref</a></li>
+                </ul>
+              </li>
+              <li>JavaScript(in process)
+                <ul>
+                  <li><a href="https://ru.code-basics.com/languages/javascript">Code Basics</a></li>
+                  <li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                </ul>
+              </li>
             </ul>
-          </li>
-          <li>Minsk State Energy College
-            <ul>
-              <li>Electrician Technician</li>
-            </ul>
-          </li>
-        </ol>
-        <h3>Courses</h3>
-        <ul>
-          <li>HTML<ul>
-            <li><a href="#">Code Basics</a></li>
-            <li><a href="#">Webref</a></li>
-          </ul></li>
-          <li>CSS
-            <ul>
-              <li><a href="#">Code Basics</a></li>
-              <li><a href="#">Webref</a></li>
-            </ul>
-          </li>
-          <li>JavaScript(in process)
-            <ul>
-              <li><a href="#">Code Basics</a></li>
-              <li><a href="#">learn.javascript.ru</a></li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section class="skils">
-        <h2>Skils</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript(Basic)</li>
-          <li>Git, GitHub</li>
-        </ul>
-      </section>
+          </section>
+        </div>  
+        <section class="skils">
+          <h2>Skils</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript(Basic)</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </section>
       <section class="workExperience">
         <h2>Work Experience</h2>
-        <a href="#">My GitHub</a>
+        <a href="https://github.com/Vergonini/rsschool-cv/tree/rsschool-cv-html">Work Progect</a>
       </section>
       <section class="languages">
         <h2>Languages</h2>
@@ -111,16 +113,16 @@
       </section>
     </main> 
     <footer>
-      <ul>
+      <ul class="containerFooter">
         <li class="gitHub">
-          <a href="#">
-            <img src="#" alt="My GitHub">
+          <a href="https://github.com/Vergonini">
+            <img src="../img/GitHub_Logo.png" alt="My GitHub" width="150" height="70">
           </a>
         </li>
-        <li class="year">2021</li>
+        <li class="year">2022</li>
         <li class="rsSchool">
-          <a href="#">
-            <img src="#" alt="RS rsSchool">
+          <a href="https://rs.school/js/">
+            <img src="../img/logo-rs.svg" alt="RS rsSchool" width="150" height="70">
           </a>
         </li>
       </ul>
