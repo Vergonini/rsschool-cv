@@ -3,6 +3,7 @@
 }
 body {
   background: url(../img/backgroundHeader.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .content {
   width: 960px;
