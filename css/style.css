@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
- background: linear-gradient(to top right, #5a83b0, #27e324);
+  background: url(../img/backgroundHeader.jpg);
 }
 .content {
   width: 960px;
@@ -64,13 +64,12 @@ pre {
   padding-bottom: 20px;
 }
 .codeExamples {
-  background: no-repeat center/135% url(../img/5.jpg);
+  background: no-repeat center/145% url(../img/5.jpg);
   flex: 1;
   transition: 1s;
 }
 .codeExamples:hover {
   transform: scale(1.2);
-  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), no-repeat center/135% url(../img/5.jpg); 
 }
 .aboutMe {
   background: no-repeat center/145% url(../img/7.jpg);
@@ -80,16 +79,14 @@ pre {
 }
 .aboutMe:hover {
   transform: scale(1.2);
-  background: no-repeat center/145% url(../img/7.jpg);
 }
 .education {
-  background: no-repeat center/145% url(../img/6.jpg);
+  background: no-repeat center/155% url(../img/6.jpg);
   flex: 1;
   transition: 1s;
 }
 .education:hover {
   transform: scale(1.2);
-  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), no-repeat center/145% url(../img/6.jpg); 
 }
 .skils {
   background: no-repeat center/145% url(../img/8.jpg);
@@ -98,7 +95,6 @@ pre {
 }
 .skils:hover {
   transform: scale(1.2);
-  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), no-repeat center/145% url(../img/8.jpg); 
 }
 .workExperience {
   background: no-repeat center/145% url(../img/9.jpg);
@@ -107,7 +103,6 @@ pre {
 }
 .workExperience:hover {
   transform: scale(1.2);
-  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), no-repeat center/145% url(../img/9.jpg);
 }
 
 .languages {
@@ -117,7 +112,6 @@ pre {
 }
 .languages:hover {
   transform: scale(1.2);
-  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), no-repeat center/145% url(../img/10.jpg);
 }
 .courses {
   text-align: center;
